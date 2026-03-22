@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link rel="stylesheet" href="style.css">
+<script>
+
+function check(){
+let a=document.getElementById("q1").value;
+
+if(a=="HTML")
+alert("Correct");
+else
+alert("Wrong");
+}
+
+</script>
+</head>
+
+<body>
+
+<h1>Quiz</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="courses.html">Courses</a>
+<a href="quiz.html">Quiz</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<p>Which language for web?</p>
+
+<input id="q1">
+
+<button onclick="check()">Submit</button>
+
+</body>
+</html>
